@@ -11,5 +11,8 @@ public class Main {
             double b = Math.random() * 10 + 5;
             System.out.println(new Teglalap(a, b));
         }
+        for (int i = 0; i < 5; i++) {
+            System.out.println(new Paralelogramma());
+        }
     }
 }
