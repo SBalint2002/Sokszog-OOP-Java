@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07a7b1e5-ac9c-457a-9d60-c022fa3d04b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Haromszog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Sokszog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Teglalap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Haromszog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Haromszog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Sokszog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Sokszog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Teglalap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/sokszogoop/Teglalap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.petrik.sokszogoop.Main" />
+      <module name="SokszogOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.petrik.sokszogoop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
