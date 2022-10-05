@@ -22,18 +22,18 @@ public class Main {
         for (int i = 0; i < 5; i++) {
             System.out.println(new Negyzet());
         }
-        System.out.println("Lista elemek:");
+        System.out.println("\nLista elemek:");
         try{
             for (int i = 0; i < 5; i++) {
-                System.out.println(new Sokszogek());
+                new Sokszogek();
+                System.out.println(Sokszogek.kiir());
             }
         }catch(NullPointerException e)
         {
             System.out.println("NullPointerException Caught");
         }
-        System.out.println("Lista adatok:");
-        //String sokszogek = kiir();
-        //System.out.println(sokszogek);
+        System.out.println("\nLista adatok:");
+        System.out.println(Sokszogek.listaAdatok());
 
     }
 }
