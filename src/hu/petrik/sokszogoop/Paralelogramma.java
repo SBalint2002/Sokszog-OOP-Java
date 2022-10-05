@@ -1,10 +1,10 @@
 package hu.petrik.sokszogoop;
 
-public class Paralelogramma extends Sokszog{
+public class Paralelogramma extends Sokszog {
     private double alfa;
     private double b;
 
-    public Paralelogramma(){
+    public Paralelogramma() {
         super(getVeletlenOldal());
         this.b = getVeletlenOldal();
         this.alfa = getVeletlenSzog();
@@ -26,9 +26,12 @@ public class Paralelogramma extends Sokszog{
     private static double getVeletlenOldal() {
         return Math.random() * 10 + 5;
     }
-    private static double getVeletlenSzog(){ return (Math.random() * (2 * 180) + 1) - 1;}
 
-    public boolean isSzerkesztheto(){
+    private static double getVeletlenSzog() {
+        return (Math.random() * (2 * 180) + 1) - 1;
+    }
+
+    public boolean isSzerkesztheto() {
         return alfa < 180;
     }
 
@@ -39,12 +42,12 @@ public class Paralelogramma extends Sokszog{
 
     @Override
     public double getKerulet() {
-        return 2*(super.getA() + this.b);
+        return 2 * (super.getA() + this.b);
     }
 
     @Override
     public double getTerulet() {
-        return super.getA()*this.b*Math.sin(Math.toRadians(this.alfa));
+        return super.getA() * this.b * Math.sin(Math.toRadians(this.alfa));
     }
 
     @Override

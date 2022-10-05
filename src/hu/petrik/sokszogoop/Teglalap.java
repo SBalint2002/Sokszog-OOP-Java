@@ -8,6 +8,15 @@ public class Teglalap extends Sokszog {
         this.b = b;
     }
 
+    public Teglalap() {
+        super(getVeletlenOldal());
+        this.b = getVeletlenOldal();
+    }
+
+    private static double getVeletlenOldal() {
+        return Math.random() * 20 + 5;
+    }
+
     public double getB() {
         return b;
     }
