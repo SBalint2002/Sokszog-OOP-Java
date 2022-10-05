@@ -14,5 +14,8 @@ public class Main {
         for (int i = 0; i < 5; i++) {
             System.out.println(new Paralelogramma());
         }
+        for (int i = 0; i < 5; i++) {
+            System.out.println(new Negyzet());
+        }
     }
 }
